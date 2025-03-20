@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  color: black;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  column-gap: 5%;
+  align-items: center;
+}
+h2 {
+  color: rgb(31, 31, 31);
+  grid-column: 1/-1;
+}
+
+h3 {
+  color: rgb(131, 131, 131);
+  grid-column: 1/-1;
+}
+p {
+  border-top: 50px;
+  border-color: black;
+  grid-column: 1/-1;
+}
+.learn-more {
+  margin-right: 3px;
+}
