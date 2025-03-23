@@ -25,10 +25,24 @@ h3 {
   grid-column: 1/-1;
 }
 p {
-  border-top: 50px;
+  border-top: 1px;
   border-color: black;
   grid-column: 1/-1;
+  border-top-style: solid;
+  margin-top: 40px;
 }
+
+button {
+  background-color: rgb(26, 115, 232);
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+}
+
 .learn-more {
   margin-right: 3px;
+}
+
+.new-meet {
 }

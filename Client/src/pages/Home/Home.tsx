@@ -3,8 +3,8 @@ import Meeting_Block from "../../components/meeting-block/Meeting-Block";
 import "./home.css";
 const Home = () => {
   return (
-    <div>
-      <Button label={"Meater"} />
+    <div className="container">
+      {/* <Button label={"Meater"} /> */}
       <Meeting_Block />
     </div>
   );
